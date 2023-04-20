@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mobile Graphics Designer | Your Name</title>
+	<style>
+		/* Reset Styles */
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		/* Typography Styles */
+		body {
+			font-family: 'Montserrat', sans-serif;
+			font-size: 18px;
+			line-height: 1.5;
+			color: #333333;
+			background-color: #F5F5F5;
+		}
+
+		h1, h2, h3 {
+			font-weight: 700;
+			color: #333333;
+		}
+
+		h1 {
+			font-size: 48px;
+			text-align: center;
+			margin: 60px 0 40px;
+		}
+
+		h2 {
+			font-size: 32px;
+			margin: 40px 0 20px;
+		}
+
+		p {
+			margin-bottom: 20px;
+			text-align: justify;
+		}
+
+		a {
+			color: #333333;
+			text-decoration: none;
+			border-bottom: 2px solid #333333;
+			transition: border-bottom 0.2s ease-in-out;
+		}
+
+		a:hover {
+			border-bottom: 2px solid #555555;
+		}
+
+		/* Layout Styles */
+		.container {
+			max-width: 960px;
+			margin: 0 auto;
+			padding: 0 20px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			background-color: #FFFFFF;
+		}
+
+		.section {
+			margin-bottom: 80px;
+		}
+
+		.section:last-child {
+			margin-bottom: 0;
+		}
+
+		.section-header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 40px;
+		}
+
+		.section-header img {
+			max-width: 100%;
+			margin-bottom: 20px;
+		}
+
+		.section-content {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.project-card {
+			flex-basis: calc(33.33% - 20px);
+			margin-bottom: 40px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			border-radius: 8px;
+			overflow: hidden;
+		}
+
+		.project-card img {
+			display: block;
+			width: 100%;
+			height: auto;
+			object-fit: cover;
+		}
+
+		.project-card .project-details {
+			padding: 20px;
+		}
+
+		.project-card .project-title {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		.project-card .project-description {
+			font-size: 16px;
+			margin-bottom: 20px;
+		}
+
+		@media screen and (max-width: 768px) {
+			.project-card {
+				flex-basis: calc(50% - 20px);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Enah's Hub</h1>
+		
+	
+		<div class="section">
+			<div class="section-header">
+				<img src="images/name.jpeg" alt="Profile Picture">
+				<h2>About Me</h2>
+			</div>
+			<div class="section-content">
+				<p>Hi, i am Enahoro Handsome. I am a highly skilled mobile graphics designer with a passion for creating visually stunning designs that enhance the user experience. With some years of experience in the industry, I have honed my skills in creating beuatiful designs, branding(Logo designs, Flyer designs, Banner designs and any type of design you want).</p>
+				<p>I believe in creating designs that are not only aesthetically pleasing but also functional and user-friendly. I stay updated with the latest design trends and technologies to deliver cutting-edge designs that help my clients achieve their business goals.</p>
+			</div>
+		</div>
+
+		<div class="section">
+			<div class="section-header">
+				<h2>My Work(Flyers)</h2>
+			</div>
+			<div class="section-content">
+				<div class="project-card">
+					<img src="images/1.jpeg" alt="Project 1">
+					<div class="project-details">
+						<h3 class="project-title">Birthday</h3>
+					</div>
+				</div>
+				<div class="project-card">
+					<img src="images/2.jpeg" alt="Project 2">
+					<div class="project-details">
+						<h3 class="project-title">Events</h3>
+					</div>
+				</div>
+				<div class="project-card">
+					<img src="images/4.jpeg" alt="Project 3">
+					<div class="project-details">
+						<h3 class="project-title">Advertising</h3>
+					</div>
+				</div>
+
+				<div class="project-card">
+					<img src="images/5.jpeg" alt="Project 3">
+					<div class="project-details">
+						<h3 class="project-title">Photography</h3>
+					</div>
+				</div>
+
+
+				<div class="project-card">
+					<img src="images/6.jpeg" alt="Project 3">
+					<div class="project-details">
+						<h3 class="project-title">Church</h3>
+					</div>
+				</div>
+
+				<div class="project-card">
+					<img src="images/7.jpeg" alt="Project 3">
+					<div class="project-details">
+						<h3 class="project-title">Church</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section">
+			<div class="section-header">
+				<h2>Contact Me</h2>
+			</div>
+			<div class="section-content">
+				<p>If you have any questions or would like to discuss a potential project, please feel free to reach out to me. I would be happy to hear from you!</p>
+				<p>Phone: (+234) 903 453 0790</p>
+				<p>Whatsapp: (+234) 903 453 0790</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
